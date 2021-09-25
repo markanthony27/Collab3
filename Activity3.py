@@ -66,29 +66,3 @@ elif (type == 'C' or type == 'c'):
         print("INVALID INPUT!")
 else:
     print("INVALID INPUT")
-
-print(" ")
-print("Would you like to add accesories?")
-print("A. Yes or B. No")
-acc = input("Would you? ")
-if (acc == 'A' or acc == 'a'):
-    print(" ")
-    print("WHAT ACCESORIES?")
-    print("1 = Headset ")
-    print("2 = Flashdrive & Hardrive")
-    dd = input("Choose = ")
-    if(dd == '1'):
-        att = 5000
-        print("Purchased a headset worth {}.".format(att))
-        totalfee = att + tt
-        print("Total Amount of purchased is {}.".format(totalfee))
-        print("Okay, Thank you for choosing CCODCDR Enterprise!")
-    else:
-        att = 3500
-        print("Purchased a Flashdrive & Hardrive worth {}.".format(att))
-        totalfee = att + tt
-        print("Total Amount of purchased is {}.".format(totalfee))
-        print("Okay, Thank you for choosing CCODCDR Enterprise!")
-else:
-    print("Okay, Thank you for choosing CCODCDR Enterprise!")
-    print("Total Amount is {}.".format(tt))
